@@ -98,6 +98,9 @@ Aplikasi Zebagz menggunakan beberapa paket Flutter, di antaranya:
 4. Pengguna dapat memilih produk, menambah ke keranjang, lalu checkout.
 5. Setelah selesai, pengguna dapat melakukan logout.
 
+## Link Youtube
+https://www.youtube.com/watch?v=rZ6CTz1zc0o
+
 ## Cara Menjalankan Aplikasi
 
 Pastikan semua dependensi sudah terpasang, lalu jalankan perintah berikut:
