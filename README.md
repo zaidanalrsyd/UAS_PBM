@@ -29,16 +29,22 @@ Zebagz adalah aplikasi mobile berbasis Flutter yang dirancang untuk membantu pen
 Berikut adalah beberapa tampilan antarmuka aplikasi:
 - Halaman Login  
 ![Halaman Login](https://github.com/user-attachments/assets/e386dd01-8c2c-4ba0-b9d5-618918558b94)
+
 - Halaman Daftar Akun  
 ![Halaman Daftar Akun](https://github.com/user-attachments/assets/89eaf870-5d23-47b9-821f-5356343fd863)
+
 - Halaman Pengguna Admin
 ![Halaman Pengguna Admin](https://github.com/user-attachments/assets/1c2ba8d6-94f0-4871-90db-281726695e88)
+
 - Halaman Admin (tambah produk)  
 ![Halaman Admin (tambah produk)](https://github.com/user-attachments/assets/00ba3f21-aa17-4a3a-a43b-baf18ab90b69)
+
 - Halaman User (Keranjang)
 ![Halaman User (Keranjang)](https://github.com/user-attachments/assets/ba2bfdd2-3b5e-46ed-94e7-6cbc1c46ab01)
+
 - Halaman Keranjang Kosong 
 ![Halaman keranjang kosong](https://github.com/user-attachments/assets/004d8a17-fa3a-4f25-8ea0-96e0d66ed00d)
+
 - Halaman Logout 
 ![Halaman Logout](https://github.com/user-attachments/assets/2c414381-bb56-41a8-81c7-93cf96f2b10c)
 
