@@ -1,13 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
-final lightTheme = ThemeData(
-  brightness: Brightness.light,
-  primarySwatch: Colors.deepPurple,
-  textTheme: GoogleFonts.poppinsTextTheme(),
-);
+class AppTheme {
+  static final lightTheme = ThemeData(
+    brightness: Brightness.light,
+    primarySwatch: Colors.indigo,
+    scaffoldBackgroundColor: Colors.white,
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.indigo,
+      foregroundColor: Colors.white,
+      elevation: 0,
+    ),
+    textTheme: const TextTheme(
+      titleMedium: TextStyle(fontWeight: FontWeight.bold),
+    ),
+    colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.amber),
+  );
 
-final darkTheme = ThemeData(
-  brightness: Brightness.dark,
-  textTheme: GoogleFonts.poppinsTextTheme(),
-);
+  static final darkTheme = ThemeData(
+    brightness: Brightness.dark,
+    scaffoldBackgroundColor: const Color(0xFF121212),
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.black,
+      foregroundColor: Colors.white,
+      elevation: 0,
+    ),
+    textTheme: const TextTheme(
+      titleMedium: TextStyle(fontWeight: FontWeight.bold),
+    ),
+    colorScheme: ColorScheme.dark().copyWith(secondary: Colors.tealAccent),
+  );
+}
